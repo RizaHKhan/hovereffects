@@ -15,8 +15,17 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container .card {
   position: relative;
+  background: #333;
+  border: none;
+  padding: 1em;
 }
 
 .container .card .face {

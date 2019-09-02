@@ -10,8 +10,15 @@ body {
 
 }
 
+.container {
+    display: flex;
+}
+
 .container .card{
     position: relative;
+    background: #333;
+    border: none;
+    padding: 1em;
 }
 
 .container .card .face {
